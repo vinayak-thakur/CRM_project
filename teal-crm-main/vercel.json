@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "crm": "manage.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "crm": "/(.*)", "dest": "manage.py" }
+  ]
+}
